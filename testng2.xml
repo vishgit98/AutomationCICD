@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loan">
+  <test thread-count="5" name="Personal loan">
+    <packages>
+    	<package name="section16"/>
+    </packages>
+  </test>
+</suite> 
+
+<!-- there can be n no. of packages with 100's of TCs which can be exec directly at package level. Useful during "Regression"-->

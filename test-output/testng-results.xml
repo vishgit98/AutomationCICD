@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="13" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-19T16:30:55 IST" name="Loan" finished-at="2024-12-19T16:30:55 IST" duration-ms="204">
+    <groups>
+      <group name="Smoke">
+        <method signature="TestNg1_131.Demo()[pri:0, instance:section16.TestNg1_131@7205765b]" name="Demo" class="section16.TestNg1_131"/>
+        <method signature="TestNg2_132.Demo3()[pri:0, instance:section16.TestNg2_132@2f217633]" name="Demo3" class="section16.TestNg2_132"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-12-19T16:30:55 IST" name="Personal loan" finished-at="2024-12-19T16:30:55 IST" duration-ms="156">
+      <class name="section16.TestNg3_133">
+        <test-method signature="LoginApiHomeLoan()[pri:0, instance:section16.TestNg3_133@a530d0a]" started-at="2024-12-19T16:30:55 IST" name="LoginApiHomeLoan" finished-at="2024-12-19T16:30:55 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginApiHomeLoan -->
+      </class> <!-- section16.TestNg3_133 -->
+      <class name="section16.TestNg2_132">
+        <test-method is-config="true" signature="prerequisite()[pri:0, instance:section16.TestNg2_132@2f217633]" started-at="2024-12-19T16:30:55 IST" name="prerequisite" finished-at="2024-12-19T16:30:55 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequisite -->
+        <test-method signature="Demo3()[pri:0, instance:section16.TestNg2_132@2f217633]" started-at="2024-12-19T16:30:55 IST" name="Demo3" finished-at="2024-12-19T16:30:55 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo3 -->
+      </class> <!-- section16.TestNg2_132 -->
+      <class name="section16.TestNg1_131">
+        <test-method signature="Demo()[pri:0, instance:section16.TestNg1_131@7205765b]" started-at="2024-12-19T16:30:55 IST" name="Demo" finished-at="2024-12-19T16:30:55 IST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method is-config="true" signature="lastExecution()[pri:0, instance:section16.TestNg1_131@7205765b]" started-at="2024-12-19T16:30:55 IST" name="lastExecution" finished-at="2024-12-19T16:30:55 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastExecution -->
+      </class> <!-- section16.TestNg1_131 -->
+    </test> <!-- Personal loan -->
+    <test started-at="2024-12-19T16:30:55 IST" name="Car loan" finished-at="2024-12-19T16:30:55 IST" duration-ms="202">
+      <class name="section16.TestNg1_131">
+        <test-method is-config="true" signature="AfLast()[pri:0, instance:section16.TestNg1_131@7205765b]" started-at="2024-12-19T16:30:55 IST" name="AfLast" finished-at="2024-12-19T16:30:55 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfLast -->
+      </class> <!-- section16.TestNg1_131 -->
+      <class name="section16.TestNg4_133">
+        <test-method is-config="true" signature="BfSuite(java.lang.String)[pri:0, instance:section16.TestNg4_133@428640fa]" started-at="2024-12-19T16:30:55 IST" name="BfSuite" finished-at="2024-12-19T16:30:55 IST" duration-ms="18" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qaclickacademy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BfSuite -->
+        <test-method is-config="true" signature="BefClass()[pri:0, instance:section16.TestNg4_133@428640fa]" started-at="2024-12-19T16:30:55 IST" name="BefClass" finished-at="2024-12-19T16:30:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BefClass -->
+        <test-method is-config="true" signature="BeforeEachTC(java.lang.String)[pri:0, instance:section16.TestNg4_133@428640fa]" started-at="2024-12-19T16:30:55 IST" name="BeforeEachTC" finished-at="2024-12-19T16:30:55 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[carloan.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeEachTC -->
+        <test-method signature="ApiCarLoan(java.lang.String,java.lang.String)[pri:0, instance:section16.TestNg4_133@428640fa]" started-at="2024-12-19T16:30:55 IST" name="ApiCarLoan" finished-at="2024-12-19T16:30:55 IST" duration-ms="45" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[carloan.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApiCarLoan -->
+        <test-method is-config="true" signature="BeforeEachTC(java.lang.String)[pri:0, instance:section16.TestNg4_133@428640fa]" started-at="2024-12-19T16:30:55 IST" name="BeforeEachTC" finished-at="2024-12-19T16:30:55 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[carloan.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeEachTC -->
+        <test-method signature="WebLoginCarLoan(java.lang.String,java.lang.String)[pri:0, instance:section16.TestNg4_133@428640fa]" started-at="2024-12-19T16:30:55 IST" name="WebLoginCarLoan" data-provider="getData" finished-at="2024-12-19T16:30:55 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginCarLoan -->
+        <test-method is-config="true" signature="BeforeEachTC(java.lang.String)[pri:0, instance:section16.TestNg4_133@428640fa]" started-at="2024-12-19T16:30:55 IST" name="BeforeEachTC" finished-at="2024-12-19T16:30:55 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[carloan.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeEachTC -->
+        <test-method signature="WebLoginCarLoan(java.lang.String,java.lang.String)[pri:0, instance:section16.TestNg4_133@428640fa]" started-at="2024-12-19T16:30:55 IST" name="WebLoginCarLoan" data-provider="getData" finished-at="2024-12-19T16:30:55 IST" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginCarLoan -->
+        <test-method is-config="true" signature="BeforeEachTC(java.lang.String)[pri:0, instance:section16.TestNg4_133@428640fa]" started-at="2024-12-19T16:30:55 IST" name="BeforeEachTC" finished-at="2024-12-19T16:30:55 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[carloan.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeEachTC -->
+        <test-method signature="WebLoginCarLoan(java.lang.String,java.lang.String)[pri:0, instance:section16.TestNg4_133@428640fa]" started-at="2024-12-19T16:30:55 IST" name="WebLoginCarLoan" data-provider="getData" finished-at="2024-12-19T16:30:55 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginCarLoan -->
+        <test-method is-config="true" signature="AftClass()[pri:0, instance:section16.TestNg4_133@428640fa]" started-at="2024-12-19T16:30:55 IST" name="AftClass" finished-at="2024-12-19T16:30:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AftClass -->
+      </class> <!-- section16.TestNg4_133 -->
+    </test> <!-- Car loan -->
+  </suite> <!-- Loan -->
+</testng-results>
